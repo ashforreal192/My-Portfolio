@@ -1,5 +1,5 @@
 @font-face {
-    font-family: sans-serif;
+    font-family: 'sans-serif';
     src: url(./GENERALSANS-MEDIUM.OTF);
     src: url(./GENERALSANS-REGULAR.OTF);
 }
@@ -126,7 +126,7 @@ body {
 }
 
 #smallHeadings {
-    margin-top: 5.21vw;
+    margin-top: 3vw;
     padding-right: 1.56vw;
     display: flex;
     flex-direction: column;
