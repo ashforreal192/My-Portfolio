@@ -1,7 +1,7 @@
 @font-face {
     font-family: sans-serif;
-    src: url(./GENERALSANS-MEDIUM.OTF),
-         url(./GENERALSANS-REGULAR.OTF);
+    src: url(./GENERALSANS-MEDIUM.OTF);
+    src: url(./GENERALSANS-REGULAR.OTF);
 }
 
 * {
