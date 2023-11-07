@@ -1,3 +1,9 @@
+@font-face {
+    font-family: sans-serif;
+    src: url(./GENERALSANS-MEDIUM.OTF),
+         url(./GENERALSANS-REGULAR.OTF);
+}
+
 * {
     margin: 0;
     padding: 0;
