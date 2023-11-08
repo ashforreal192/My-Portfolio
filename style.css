@@ -173,11 +173,12 @@ body {
 
 
 /* #justForPerspective{
-    height: 100vh;
-    perspective: 5px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    height: 100%;
     position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } */
 
 
@@ -185,13 +186,23 @@ body {
     background-image: url("IMG_20230613_213409_514.jpg");
     background-size: cover;
     background-position: bottom;
+
+
+    /* overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 5px; */
+
     /* filter: blur(60px); */
     height: 100vh;
     width: 100vw;
     /* background: linear-gradient(to bottom, black, #660708); */
+
+
     display: flex;
     align-items: center;
     justify-content: center;
+
+
     /* justify-content: space-between; */
     /* gap: 3vw; */
     padding: 13vw 13vw;
@@ -204,12 +215,11 @@ body {
 }
 
 
-/* #about .background{
+/* #justForPerspective .background{
     position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    z-index: -1;
     transform: translateZ(-10px) scale(3);
 } */
 
