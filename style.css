@@ -81,7 +81,8 @@ body {
 }
 
 #contact a:hover{
-    color: #faa307;
+    color: #a9def9;
+    transform: translateY(-0.5vh);
 }
 
 #nav a {
