@@ -67,6 +67,7 @@ body {
     height: 100%;
     overflow: hidden;
     /* z-index: -10; */
+    opacity: 0.42;
 }
 
 .bubbles{
@@ -145,6 +146,7 @@ body {
 
 #heading #firsth1{
     margin-left: 4.5vw;
+    color: #cfdbd5;
 }
 
 #heading h1 {
