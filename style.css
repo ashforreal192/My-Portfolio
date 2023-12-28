@@ -263,16 +263,82 @@ body {
 #page3{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to bottom, black, #333533);
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    background: linear-gradient(to bottom, black, #660708);
 }
 
 #page3 h1{
     color: #abc4ff;
-    margin-top: 2vh;
+    margin-top: 0;
     font-size: 6vh;
     text-transform: uppercase;
     text-align: center;
+}
+
+.projectsAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 5vw 10vh 5vw;
+}
+
+#dadJoke {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+#dadJoke img{
+    width: 30%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+#para{
+    text-align: center;
+}
+
+#theDescription h1{
+    font-size: 2.5vh;
+    color: white;
+}
+
+#theDescription p{
+    margin-top: 3.3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: white;
+    line-height: 3vh;
+    font-size: 2vh;
+}
+
+#theProduct{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#theProduct a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 2.5vw;
+    transition: 0.3s ease-in;
+    display: inline-block;
+}
+
+#theProduct a:hover{
+    color: #588157;
+    transform: translateY(-1vh);
+}
+
+#theProduct p{
+    color: white;
+    font-weight: bold;
 }
