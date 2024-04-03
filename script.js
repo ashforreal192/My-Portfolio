@@ -3,6 +3,19 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+// ScrollTrigger.defaults({ scrub: 4 });
+
+// gsap.to("#main", {
+//     scrollTrigger: {
+//         trigger: "#main",
+//         scroller: "body",
+//         markers: true,
+//         start: "top 0",
+//         end: "bottom 100%",
+//         scrub: 5
+//         }
+// })
+
 function firstPageAnim() {
     var tl = gsap.timeline();
 
