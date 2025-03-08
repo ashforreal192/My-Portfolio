@@ -76,7 +76,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 1.04vw 2.08vw;
+    padding: 1.04vw 2.08vw 1.04vw 2.08vw;
 }
 
 #contact {
@@ -84,7 +84,7 @@ body {
     /* align-items: center; */
     justify-content: center;
     gap: 1vw;
-    width: 10vw;
+    width: 13vw;
 }
 
 #contact a {
